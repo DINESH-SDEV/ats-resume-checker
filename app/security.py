@@ -1,6 +1,7 @@
 import bcrypt, jwt
 from datetime import datetime, timedelta, timezone
-
+import os
+SECRET_KEY = os.getenv("SECRET_KEY", "dev-only-change-me")
 SECRET_KEY = "change-this-to-a-long-random-string"
 ALGORITHM = "HS256"
 TOKEN_MINUTES = 60
