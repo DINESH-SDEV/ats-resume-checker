@@ -1,0 +1,7 @@
+{
+    "js": "javascript",
+    "py": "python",
+    "postgres": "postgresql",
+    "ml": "machine learning",
+    "ai": "artificial intelligence"
+}
